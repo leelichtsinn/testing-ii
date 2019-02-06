@@ -8,10 +8,10 @@ class Dashboard extends Component {
   render() {
     return (
       <div>
-        <button>Strike</button>
-        <button>Ball</button>
-        <button>Foul</button>
-        <button>Hit</button>
+        <button data-testid='strike-button'>Strike</button>
+        <button data-testid='ball-button'>Ball</button>
+        <button data-testid='foul-button'>Foul</button>
+        <button data-testid='hit-button'>Hit</button>
       </div>
     );
   }
